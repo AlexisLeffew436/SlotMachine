@@ -1,0 +1,96 @@
+#Logo {
+    background: url(img/owlogo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#rewards {
+    color: #ffa900;
+    font-size: 20pt;
+}
+
+#tokens {
+    color: #ffa900;
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    font-size: 3.5em;
+}
+
+#Key {
+    border: 3px groove #f9f9f9;
+    width: 17.5%;
+    padding: 7px;
+}
+
+fieldset {
+    float:  left;
+    margin-top: 5em;
+    padding: 0;
+}
+.test {
+    height:2em;
+    width : 30em;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #8d00ff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #9a9a9a;
+    margin-top: 2em;
+    color: #ffffff;
+}
+
+.test:hover {background-color: #6300ff
+}
+
+.test:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #656565;
+    transform: translateY(4px);
+    color: #ffa900;
+}
+#rectangleLeft {
+    border: .5em groove;
+    border-color: #ffa900;
+    height: 20em;
+    width: 20em;
+    margin-left: 9.9em;
+}
+#rectangleMid {
+    border: .5em groove;
+    border-color: #ffa900;
+    height: 20em;
+    width : 20em;
+    margin-left: 3em;
+}
+#rectangleRight {
+    border: .5em groove;
+    border-color: #ffa900;
+    height: 20em;
+    width : 20em;
+    margin-left: 3em;
+}
+
+h1 {
+    color: #424242;
+    margin-top: -1em;
+    text-align: center;
+    font-size: 30pt;
+    text-shadow: #ffa900 2px 2px 2px;
+}
+
+h2 {
+    color: #424242;
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: #ffa900 2px 2px 2px;
+}
+
+.pic {
+    height: 20em;
+    width: 20em;
+}

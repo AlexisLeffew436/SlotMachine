@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="SlotMachine.css">
+    <meta charset="UTF-8">
+    <title>Slot Machine Game</title>
+</head>
+<body background="img/owlogo.jpg" id="Logo">
+
+    <aside id="rewards">
+        <div id="Key">
+            2 of a kind = 3 credits<br>
+            3 of a kind = 15 credits
+        </div>
+    </aside>
+
+    <aside id="tokens">
+        Credits: <label id="counter">50</label>
+    </aside>
+
+    <h1>Slot Machine Game</h1>
+    <h2>Spin and get 2 or 3 of the same character in a row to win!</h2>
+
+<fieldset id="rectangleLeft">
+    <img id="pic1" class="pic" src="img/overwatchlogo.jpg">
+</fieldset>
+
+<fieldset id="rectangleMid">
+    <img id="pic2" class="pic" src="img/overwatchlogo.jpg">
+</fieldset>
+
+<fieldset id="rectangleRight">
+    <img id="pic3" class="pic" src="img/overwatchlogo.jpg">
+</fieldset>
+
+    <center>
+        <input type="button" value="SPIN" style="font-size: 30pt;" class="test" id="spinbutton" onclick="spin()">
+    </center>
+
+    <script src="SlotMachine.js"></script>
+</body>
+</html>
